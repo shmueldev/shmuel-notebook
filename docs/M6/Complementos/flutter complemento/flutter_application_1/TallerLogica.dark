@@ -1,0 +1,17 @@
+Center(
+  child: Container(
+    padding: EdgeInsets.all(20),
+    decoration: BoxDecoration(
+      color: Colors.grey[200],
+      borderRadius: BorderRadius.circular(10),
+    ),
+    child: Column(
+      mainAxisSize: MainAxisSize.min, // Que la columna solo ocupe lo necesario
+      children: [
+        Text('Título Pro', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+        SizedBox(height: 10),
+        Text('Subtítulo con margen'),
+      ],
+    ),
+  ),
+)
