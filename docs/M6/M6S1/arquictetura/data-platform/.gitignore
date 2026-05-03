@@ -1,0 +1,5 @@
+**/.env
+**/config
+**/logs
+master/dags
+airflow/
